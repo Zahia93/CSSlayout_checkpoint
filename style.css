@@ -1,0 +1,178 @@
+body {
+    font-family: Helvetica, Neue
+}
+
+header {
+    position: sticky;
+    height: 100px;
+    top:0;
+    z-index:1;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    height: 100px;
+    top:0;
+    z-index:1;
+    background-color: white;
+}
+
+ul.nav-bar {
+    display: flex;
+}
+
+.about,
+.career {
+    margin-right: 2rem;
+    list-style-type: none
+}
+
+.department {
+    margin-right: 100px;
+    list-style-type: none;
+    position: relative;
+    cursor: pointer;
+    color: #747474;
+}
+
+.department:hover {
+    color: #00BFA5;
+}
+.hidden-list {
+    display: none;
+    list-style-type: none;
+    float: right;
+    position: absolute;
+    z-index: 1;
+}
+
+.hidden-li {
+    display: block;
+    color: #747474;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Helvetica, Neue
+}
+
+.hidden-li:hover {
+    color: #00BFA5;
+    background-color: #f1f1f1;
+}
+
+.department:hover > .hidden-list {
+    display: block;
+}
+
+img.logo {
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.nav-about,
+.nav-career {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-about {
+    color: #00BFA5
+}
+
+.nav-career {
+    color: #747474
+}
+
+.nav-career:hover {
+    color: #00BFA5;
+}
+img.Doc_logo {
+    width: 50px;
+}
+section.about {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.moto {
+    color: #00BFA5;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+div.p {
+    display: flex;
+    justify-content: center;
+    /*padding: 1rem 2rem;*/
+    margin: 0 100px;
+}
+.p1,.p2 {
+    padding: 0.5rem;
+    font-size: 16px;
+    color: #747474;
+}
+section.service {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+    padding: 2rem;
+}
+div.patients {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 250px;
+    background-color:#00BFA5 ;
+    color: white;
+}
+a.country {
+    padding-top:50px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+div.doctors {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 250px;
+    background-color:#3d83df; ;
+    color: white;
+}
+div.clinics {
+    padding: 30px 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 250px;
+    background-color: #1b2734 ;
+    color: white;
+}
+.clinics_ref {
+    padding-top:50px;
+    color: white;
+    font-size: 16px;
+}
+section.brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p6 {
+    margin-left: 150px;
+    color: #00BFA5;
+    font-size: 34px;
+    width: 270px;
+}
+
+.brands-links {
+    display: block;
+}
