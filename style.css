@@ -21,7 +21,7 @@ nav {
     background-color: white;
 }
 
-ul.nav-bar {
+.nav-bar {
     display: flex;
 }
 
@@ -45,9 +45,8 @@ ul.nav-bar {
 .hidden-list {
     display: none;
     list-style-type: none;
-    float: right;
     position: absolute;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .hidden-li {
@@ -55,6 +54,7 @@ ul.nav-bar {
     color: #747474;
     text-decoration: none;
     padding: 10px;
+    width: 200px;
     font-family: Helvetica, Neue
 }
 
@@ -63,7 +63,7 @@ ul.nav-bar {
     background-color: #f1f1f1;
 }
 
-.department:hover > .hidden-list {
+.department:hover .hidden-list {
     display: block;
 }
 
@@ -118,7 +118,7 @@ div.p {
 }
 section.service {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 100px;
     padding: 2rem;
 }
@@ -163,7 +163,7 @@ div.clinics {
 }
 section.brands {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .p6 {
@@ -174,5 +174,11 @@ section.brands {
 }
 
 .brands-links {
-    display: block;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 50px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
