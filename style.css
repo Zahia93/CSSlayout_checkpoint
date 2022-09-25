@@ -102,7 +102,7 @@ section.about {
 p.moto {
     color: #00BFA5;
     font-size: 40px;
-    font-weight: 300;
+    font-weight:100;
     margin-top: 2rem;
 }
 div.p {
@@ -125,6 +125,7 @@ section.service {
 div.patients {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 30px 20px;
     border-radius: 25px;
     font-size: 25px;
@@ -132,15 +133,25 @@ div.patients {
     background-color:#00BFA5 ;
     color: white;
 }
-a.country {
-    padding-top:50px;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
+.choose{
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: white;
+   font-size: 18px;
+   text-decoration: underline;
+   cursor: pointer;
+   padding:0;
+}
+.country {
+    color:black;
+    background-color: white;
+    font-size: smaller;
 }
 div.doctors {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 30px 20px;
     border-radius: 25px;
     font-size: 25px;
