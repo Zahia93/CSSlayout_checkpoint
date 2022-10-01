@@ -2,23 +2,16 @@ body {
     font-family: Helvetica, Neue
 }
 
-header {
-    position: sticky;
-    height: 100px;
-    top:0;
-    z-index:1;
-    background-color: white;
-}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    height: 100px;
     top:0;
-    z-index:1;
     background-color: white;
+    height: 100px;
+    z-index: 1;
 }
 
 .nav-bar {
@@ -48,7 +41,7 @@ nav {
     list-style-type: none;
     position: absolute;
     right: 10px;
-    z-index: 1000;
+   background-color: white;
 }
 
 .hidden-li {
@@ -67,11 +60,12 @@ nav {
 
 .department:hover .hidden-list {
     display: block;
+    z-index:2;
 }
 
 img.logo {
     margin-left: 100px;
-    margin-top: 0;
+    width:190px;
 }
 
 .nav-about,
@@ -268,4 +262,20 @@ section.stats{
     width: 400px;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
+}
+article.add {
+ text-align: center;
+}
+h4.add {
+    color: #00BFA5;
+    font-size: 1.6rem;
+    line-height: 0.5em;
+    font-weight: lighter;
+}
+p.add {
+    position: relative;
+    left: 450px;
+    font-size: 0.9em;
+    width: 480px;
+    line-height: 1.5em;
 }
