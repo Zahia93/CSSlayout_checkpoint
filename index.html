@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Docplanner Group</title>
 </head>
@@ -90,8 +91,24 @@
             <div class="clinics">
                 <h4> For clinics</h4>
                 <p class="p5">Deliver an exceptional patient experience in your clinic</p>
-                <a href="#" class="clinics_ref"> 2 to 20 specialties</a> <br>
-                <a href="#" class="clinics_ref"> more than 20 specialties</a>
+                <select name="country" id="country" class="choose">
+                    <option value="Choose"  class="country">2 to 20 specialties</option>
+                    <option value="Argentenia" class="country">Argentina</option>
+                    <option value="Brazil"class="country">Brazil</option>
+                    <option value="Chile"class="country">Chile</option>
+                    <option value="Spain"class="country">Spain</option>
+                    <option value="Poland"class="country">Poland</option>
+                    <option value="portogal"class="country">portogal</option>
+                </select>
+                <select name="country" id="country" class="choose">
+                    <option value="Choose"  class="country">more than 20 specialties</option>
+                    <option value="Argentenia" class="country">Argentina</option>
+                    <option value="Brazil"class="country">Brazil</option>
+                    <option value="Chile"class="country">Chile</option>
+                    <option value="Spain"class="country">Spain</option>
+                    <option value="Poland"class="country">Poland</option>
+                    <option value="portogal"class="country">portogal</option>
+                </select>
             </div>
 
 
@@ -109,6 +126,39 @@
                 <a href="#" class="logo"> <img src="https://www.docplanner.com/logos/logo-jameda.svg" alt="logo"> </a>
             </div>
 
+        </section>
+        <section class="stats">
+            <div class="offices">
+                <h4 class="stats"> The world's biggest healthcare platform</h4>
+                <p class="p7"> We work from 8 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+            </div>
+            <div class="countries_number">
+                <i class="fa fa-flag" aria-hidden="true"></i>
+                <p class="stats">Leader in 13 countries</p>
+                <p class="p7"> Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+
+            </div>
+            <div class="appointments">
+                <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                <p class="stats">13,000,000 appointments</p>
+                <p class="p7">booked last month</p>
+
+            </div>
+            <div class="patients_number">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <p class="stats">85,000,000 patients</p>
+                <p class="p7">visit our websites each month</p>
+
+            </div>
+            <div class="doctors_number">
+                <i class="fa fa-user-md" aria-hidden="true"></i>
+                <p class="stats">190,000 active doctors</p>
+                <p class="p7">trust our solutions</p>
+
+            </div>
+            <div class="stats_logo">
+                <img class="stats_logo" src="/res/logos/sygnet.png" alt="logo">
+            </div>
         </section>
     </main>
 </body>
