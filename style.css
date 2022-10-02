@@ -65,7 +65,6 @@ nav {
 
 img.logo {
     margin-left: 100px;
-    width:190px;
 }
 
 .nav-about,
@@ -335,7 +334,26 @@ a.career {
     font-weight: bold;
     padding: 1em 1.5em;
     border-radius: 5px;
+    margin-bottom: 80px;
 }
 a.career:hover, button:hover {
     background-color: blue;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+    padding: 1em 0;
+}
+p.footer{
+    color: #747474;
+    font-size: 0.75em;
+}
+a.country {
+    text-decoration: none;
+    color: #3d83df;
+    font-size: 0.75rem;
+}
+a.country:hover {
+    text-decoration: underline;
 }
