@@ -316,3 +316,26 @@ a.city {
 a.city:hover {
     box-shadow: 1px 1px 8px 1px grey;
 }
+h1 {
+    margin-top: 80px;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+div.career {
+    display: flex;
+    justify-content: center;
+}
+a.career {
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: #3d83df;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+}
+a.career:hover, button:hover {
+    background-color: blue;
+}
