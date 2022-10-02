@@ -271,6 +271,7 @@ h4.add {
     font-size: 1.6rem;
     line-height: 0.5em;
     font-weight: lighter;
+
 }
 p.add {
     position: relative;
@@ -278,4 +279,40 @@ p.add {
     font-size: 0.9em;
     width: 480px;
     line-height: 1.5em;
+}
+div.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 80px;
+    
+}
+button {
+    position: relative;
+    float: right;
+    top: 15px;
+    right:20px;
+    padding: 1em 1.5em;
+    font-size: 0.65em;
+    font-weight: bold;
+    color: white;
+    background-color: #3d83df;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a.city {
+    text-decoration: none;
+    color: #747474;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius:5px;
+    width: 309px;
+    margin: 10px;
+}
+
+a.city:hover {
+    box-shadow: 1px 1px 8px 1px grey;
 }
